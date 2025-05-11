@@ -1,24 +1,23 @@
+
 # 🚀 Parallel Programming Project
 
 This repository contains a collection of parallel programming exercises and examples implemented in Java. The project demonstrates various parallel computing concepts using Java's concurrency features.
 
 ## 📁 Project Structure
 
+```
 Parallel-Programming/
-├── .idea/ # IntelliJ IDEA project settings
-├── input/ # Input data files for the programs
+├── .idea/                     # IntelliJ IDEA project settings
+├── input/                     # Input data files for the programs
 ├── src/
-│ └── main/
-│ └── java/
-│ └── org/
-│ └── code/ # Java source code implementing parallel algorithms
-├── .gitignore # Git ignore file
-├── bashcode.txt # Bash script or commands related to the project
-├── pom.xml # Maven project configuration file
-
-markdown
-Sao chép
-Chỉnh sửa
+│   └── main/
+│       └── java/
+│           └── org/
+│               └── code/      # Java source code implementing parallel algorithms
+├── .gitignore                 # Git ignore file
+├── bashcode.txt               # Bash script or commands related to the project
+├── pom.xml                    # Maven project configuration file
+```
 
 ## 🛠️ Technologies Used
 
@@ -40,39 +39,41 @@ Chỉnh sửa
    ```bash
    git clone https://github.com/crowz102/Parallel-Programming.git
    cd Parallel-Programming
-Build the project using Maven:
+   ```
 
-bash
-Sao chép
-Chỉnh sửa
-mvn clean install
-Run the application:
+2. **Build the project using Maven:**
 
-You can run the application using your IDE or via the command line. For example:
+   ```bash
+   mvn clean install
+   ```
 
-bash
-Sao chép
-Chỉnh sửa
-mvn exec:java -Dexec.mainClass="org.code.MainClass"
-Replace org.code.MainClass with the actual main class of your application.
+3. **Run the application:**
 
-📚 Examples
-The src/main/java/org/code/ directory contains various examples demonstrating parallel programming concepts such as:
+   You can run the application using your IDE or via the command line. For example:
 
-Multithreading
+   ```bash
+   mvn exec:java -Dexec.mainClass="org.code.MainClass"
+   ```
 
-Synchronization
+   Replace `org.code.MainClass` with the actual main class of your application.
 
-Thread pools
+## 📚 Examples
 
-Concurrent data structures
+The `src/main/java/org/code/` directory contains various examples demonstrating parallel programming concepts such as:
+
+- Multithreading
+- Synchronization
+- Thread pools
+- Concurrent data structures
 
 Each example is designed to illustrate a specific concept in parallel programming using Java.
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 📄 License
 
-🙋‍♂️ Author
-crowz102 - GitHub Profile
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🙋‍♂️ Author
+
+- **crowz102** - [GitHub Profile](https://github.com/crowz102)
 
 Feel free to contribute to this project by submitting issues or pull requests.
